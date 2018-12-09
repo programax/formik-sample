@@ -1,0 +1,36 @@
+.error {
+    padding: 0.5rem;
+    background-color: rgba(255, 0, 0, 0.5);
+    border: 1px solid red;
+    border-radius: 6px;
+    margin: 0.5rem 0 0 0;
+}
+
+.row {
+    width: 300px;
+    padding: 0.5rem 0;
+}
+
+.input {
+    width: 100%;
+    border-radius: 6px;
+    border: 1px solid #777;
+    padding: .5rem;
+    box-sizing: border-box;
+}
+
+.submit {
+    padding: 0.5rem 0;
+    background-color: #00a6ff;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    width: 100%;
+    box-shadow: 0 1px 4px 0 rgba(22, 24, 26, 0.15);
+
+    &.disabled {
+        background-color: #e6e6e6;
+        color: #292929;
+        box-shadow: inherit;
+    }
+}
